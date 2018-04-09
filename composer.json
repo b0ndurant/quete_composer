@@ -1,0 +1,17 @@
+{
+    "name": "b0ndurant/quete_composer",
+    "description": "quete composer",
+    "authors": [
+        {
+            "name": "b0ndurant",
+            "email": "martin.aurelien@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+
+    "autoload": {
+        "psr-4" : {"src\\" : "src"}
+    }
+}
